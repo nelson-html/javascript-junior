@@ -186,7 +186,7 @@ document.write(respuesta);
 //----------------------------------------------------------------------------------
 
 //Empenzando a usar POO
-
+/*
 class Animal {
     constructor (especie, edad, color){
         this.especie = especie;
@@ -204,7 +204,7 @@ class Animal {
         else{
             document.write("No puede ladrar porque es un ", this.especie)
         }
-    }*/
+    }
 }
 
 class Perro extends Animal{
@@ -237,3 +237,130 @@ perro.setRaza = "Pedro"
 
 document.write(perro.getRaza)
 gato.ladrar();
+*/
+
+
+//Metodos de cadenas
+//Concat
+/*
+let cadena = "hola que tal";
+
+result = cadena.concat(" como estas?");
+
+document.write(result + "<br>")
+
+let start_Cadena = "Hola"
+
+resultado = start_Cadena.startsWith(cadena)
+document.write(resultado)*/
+
+//metodo include
+/*
+let cadena = "hola cadena hola";
+
+resultado = cadena.lastIndexOf("hola");
+
+document.write(resultado)
+*/
+
+//uso de pad start
+/*
+let cad = "holaaaaa"
+
+let result = cad.padEnd(15, "L")
+document.write(result + "<br>")
+
+let result1 = cad.padStart(15, "L")
+document.write(result1)*/
+/*
+let cadena = "hola";
+
+resultado = cadena.repeat(10);
+document.write(resultado + "<br>")
+
+const estado = "Feliz "
+document.write(`Yo estoy muy ${estado.repeat(3)}`)*/
+
+/*
+let cadena = "Hola como estas crack"
+
+resultado = cadena.split(" ")
+
+document.write(resultado[0])*/
+
+/*
+let cadena = "ABCDEFGHIJKLMNÑOPQRSTUVIXYZ"
+
+resultado = cadena.substring(1,5 )
+document.write(resultado)*/
+
+/*let cadena = "            hola        ";
+
+resultado = cadena.trim();
+document.write(resultado.length)*/
+
+//METODOS DE ARRAY
+////////////////////////////////////////////////////////////////
+/*
+let nombres = ["nelson", "daniel", "carmen"];
+
+let resultado = nombres.push("Jorge", "alvaro");
+document.write(resultado + "<br>");
+document.write(nombres.reverse())*/
+/*
+const numeros = [2,5,5,8,6,9,1,2,3];
+
+numeros.sort();
+document.write(numeros);*/
+/*
+const numeros = [5,4,8,1,0,2,3,8];
+
+numeros.splice(3,0, "Nelson")
+document.write(numeros)*/
+/*
+let numeros = ["abecedario","manzana","pedro","dedo","bobo"];
+
+document.write(numeros + "<br>")
+
+let resultado = numeros.join(" - ");
+
+document.write(resultado)*/
+
+/*
+let numeros = ["abecedario","manzana","pedro","dedo","bobo"];
+
+document.write(numeros + "<br>")
+
+let resultado = numeros.includes("pedro")
+let resultado1 = numeros.indexOf("pedro")
+let resultado2 = numeros.lastIndexOf("pedro")
+document.write(resultado + "<br>");
+document.write(resultado1 + "<br>");
+document.write(resultado2 + "<br>");*/
+
+/*
+let numeros = ["abecedario","manzana","pedro","dedo","bobo"];
+
+resultado1 = numeros.slice(0,4)
+document.write(resultado1 + "<br>")
+
+resultado = numeros.filter(numero => numero.length > 5)
+
+document.write(resultado)*/
+
+//objeto math----------------------------------------------------------------------------------------
+/*
+numero = Math.max(9,10,15,10,13,15,25,255,854);
+numero = Math.min(9,10,15,10,13,15,25,255,854);
+
+document.write(numero + "<br>")
+
+let numero2 = Math.random()*99;
+numero2 = Math.round(9.9)
+numero2 = Math.trunc(8.4)
+document.write(numero2)
+*/
+
+//consola--------------------------------------------------------------------------------------------
+
+
