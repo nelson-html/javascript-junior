@@ -361,6 +361,111 @@ numero2 = Math.trunc(8.4)
 document.write(numero2)
 */
 
-//consola--------------------------------------------------------------------------------------------
+//consola----------------------------------------------------------------------------------------
+//--------------------------------DOM------------------------------------------------------------
+
+// let parrado = document.getElementsByTagName("parrafo");
+
+// document.write(parrafo)
+
+// let inputRadio = document.querySelector(".radio")
+// inputRadio.setAttribute("type","date")
+
+// document.write(inputRadio.getAttribute("type")) 
+
+//-----------------atributos globales---
+
+// let saludo = document.querySelector(".titulo")
+// saludo.setAttribute("title", "jajaja xd")
+
+//METODO STYLE------------------------------------------------------------------------------
+/*
+const titulo = document.querySelector(".h1_mod");
+
+titulo.style.color = "#087"
+titulo.style.backgroundColor = "#fff"
+titulo.style.padding = "10px"
+*/
+
+//CLASSLIST ------------------------------------------------------------------------------------
+
+// const titulo = document.querySelector(".h1_mod");
+// titulo.classList.add("perro")
+// titulo.classList.add("mujer")
+// titulo.classList.remove("mujer")
+// let valor = titulo.classList.item(0)
+
+// document.write(valor  + "<br>")
+
+// let valor2 = titulo.classList.contains("maruchan")
+// if (valor2 == true){
+//     document.write("La clase existe" + "<br>")
+// } else{
+//     document.write("La clase no existe" + "<br>")
+// }
+
+// const titulo = document.querySelector(".h1_mod");
+// titulo.classList.toggle("maruchan")
+
+
+// const titulo = document.querySelector(".maruchan")
+
+// let resultado = titulo.innerHTML;
+// document.write(resultado)
+
+//creacion de elementos --------------------------------------------------------------------
+
+// const container = document.querySelector(".contenedor");
+// const fragmento = document.createDocumentFragment();
+
+// for (let i = 0; i < 20; i++) {
+//     const item = document.createElement("LI")
+//     item.innerHTML = ("Este es un item de la lista")
+//     fragmento.appendChild(item)
+// }
+
+// container.appendChild(fragmento)
+
+// console.log(container)
+
+//Obtencion de childs -----------------------------------------------------------------------------
+// const container = document.querySelector(".contenedor");
+
+// const primerHijo = container.children;
+
+// for (hijo of primerHijo){
+//     console.log(hijo)
+// }
+
+//METODOS DE CHILDS ----------------------------------------------------------------------
+
+// const container = document.querySelector(".contenedor");
+
+// const parrafo = document.createElement("P").innerHTML = "Parrafo";
+// const h2_nuevo = document.createElement("H2");
+// h2_nuevo.innerHTML = "Titulo"
+
+// const h2_antiguo = document.querySelector(".h2");
+
+// // container.removeChild(h2_antiguo)
+
+// let respuesta = container.hasChildNodes();
+
+// if (respuesta) {
+//     document.write("El elemento tiene hijos")
+// } else {
+//     document.write("El elemento no tiene hijos")
+// }
+
+//PROPIEDADES SIBLINSG--------------------------------------------
+
+// const container = document.querySelector(".contenedor");
+
+// const parrafo = document.createElement("P").innerHTML = "Parrafo";
+// const h2_nuevo = document.createElement("H2");
+// h2_nuevo.innerHTML = "Titulo"
+
+// const h2_antiguo = document.querySelector(".h2");
+// console.log(h2_antiguo.nextElementSibling)
 
 
